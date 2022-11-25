@@ -90,19 +90,19 @@ function deleteImg(type) {
   let imgUrl = "../assets/photo.png";
   switch (type) {
     case "idCard":
-      deleteImgHandler('idCardUrl', imgUrl);
+      deleteImgHandler("idCardUrl", imgUrl);
       break;
     case "spot":
-      deleteImgHandler('headPortraitUrl', imgUrl);
+      deleteImgHandler("headPortraitUrl", imgUrl);
       break;
     case "lawyer":
-      deleteImgHandler('lawyerUrl', imgUrl);
+      deleteImgHandler("lawyerUrl", imgUrl);
       break;
     case "firm":
-      deleteImgHandler('certificationUrl', imgUrl);
+      deleteImgHandler("certificationUrl", imgUrl);
       break;
     case "attorney":
-      deleteImgHandler('attorneyUrl', imgUrl);
+      deleteImgHandler("attorneyUrl", imgUrl);
       break;
   }
 }
